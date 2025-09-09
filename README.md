@@ -1,7 +1,5 @@
 ## 环境搭建
 
-### ios 环境
-
 ```bash
 # 1. ruby版本升级： 原ios自带ruby 为ruby2
 brew install ruby
@@ -27,7 +25,7 @@ echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
 echo 'eval "$(jenv init -)"' >> ~/.zshrc
 ```
 
-### 初始化项目
+## 初始化项目
 
 参考：https://reactnative.dev/docs/getting-started-without-a-framework
 
@@ -47,4 +45,8 @@ git config --global http.proxy socks5://127.0.0.1:7890
 pod install
 ```
 
-### 接入 UI 库 (tamagui)
+## 接入 UI 库 (tamagui)
+
+```bash
+npm i tamagui
+```
